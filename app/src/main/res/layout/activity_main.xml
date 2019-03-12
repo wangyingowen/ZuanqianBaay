@@ -9,13 +9,13 @@
   tools:context=".MainActivity">
 <View
   android:layout_width="match_parent"
-  android:layout_height="15dp"
+  android:layout_height="12dp"
   android:id="@+id/vvt"
-  android:background="#F08080"/>
+  android:background="@color/maincolor2"/>
  <RelativeLayout
    android:layout_width="match_parent"
    android:layout_height="50dp"
-   android:background="#F08080"
+   android:background="@color/maincolor2"
    >
    <TextView
      android:layout_width="wrap_content"
