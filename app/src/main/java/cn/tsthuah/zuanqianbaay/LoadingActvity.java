@@ -29,6 +29,7 @@ hideStatusBar();
                    Thread.sleep(2000);
                    Intent intent=new Intent(LoadingActvity.this,MainActivity.class);
                    startActivity(intent);
+                   finish();
                  } catch (InterruptedException e) {
                    e.printStackTrace();
                  }

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   package="cn.tsthuah.zuanqianbaay">
-
+  <!-- 进行网络访问和网络状态监控相关的权限声明 -->
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <!-- 网络库使用，当网络操作时需要确保事务完成不被杀掉 -->
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
   <application
     android:allowBackup="true"
     android:icon="@mipmap/logo7"
