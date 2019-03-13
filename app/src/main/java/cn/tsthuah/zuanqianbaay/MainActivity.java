@@ -7,19 +7,30 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import java.util.List;
 
 /**
  * wangying
  */
 public class MainActivity extends AppCompatActivity {
 
+
+  List<DataInfo> datas;
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-
     setContentView(R.layout.activity_main);
-
     hideStatusBar();
+    initData();
+
+  }
+
+  private void initData() {
+
+    DataInfo dataInfo1=new DataInfo();
+    dataInfo1.setPtlogo(R.mipmap.img1);
+    dataInfo1.setPtName("鑫划算");
+
   }
 
 
