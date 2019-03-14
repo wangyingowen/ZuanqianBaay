@@ -17,19 +17,35 @@
    android:layout_height="50dp"
    android:background="@color/maincolor2"
    >
+   <RelativeLayout
+     android:layout_width="80dp"
+     android:layout_height="match_parent"
+     android:id="@+id/rl_back"
+     >
+     <ImageView
+       android:layout_width="20dp"
+       android:layout_height="20dp"
+       android:background="@mipmap/return_back"
+       android:layout_centerVertical="true"
+       android:layout_marginLeft="10dp"
+       />
+
+   </RelativeLayout>
+
    <TextView
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
      android:textSize="18sp"
      android:textColor="#FFF"
      android:text="赚钱宝"
+     android:id="@+id/tx_title"
      android:layout_centerInParent="true"
      />
  </RelativeLayout>
-<android.support.v7.widget.RecyclerView
-  android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:id="@+id/rcv"
+  <WebView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/wb"
+    ></WebView>
 
-  ></android.support.v7.widget.RecyclerView>
 </LinearLayout>
