@@ -87,11 +87,12 @@ public class MainActivity extends AppCompatActivity {
     dataInfo7.setPtName("迈迈周边游");
     dataInfo7.setPtms("优选爆款，超高佣金，简单易学");
     dataInfo7.setPtewm(R.mipmap.maimaizhoubianyou);
+    dataInfo7.setPturl("https://h5.youzan.com/wscump/salesman/tutorial?kdt_id=42162271&from_seller=57q2FX");
     DataInfo dataInfo8=new DataInfo();
     dataInfo8.setPtlogo(R.mipmap.img8);
-    dataInfo8.setPtName("好耍的很");
-    dataInfo8.setPtms("上到高端大气上档次，下到餐饮关注鬼饮食");
-    dataInfo8.setPturl("https://h5.youzan.com/wscump/salesman/tutorial?kdt_id=42162271&from_seller=57q2FX");
+    dataInfo8.setPtName("旅划算");
+    dataInfo8.setPtms("旅游生活赚钱达人，全国皆有分站");
+    dataInfo8.setPtewm(R.mipmap.erweimalvhuasuan);
     datas.add(dataInfo7);
     datas.add(dataInfo4);
     datas.add(dataInfo6);
@@ -167,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
       rl_c.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View v) {
-          if (dtContent.getPtName().equals("好耍的很")){
+          if (dtContent.getPtName().equals("迈迈周边游")){
             Intent intent=new Intent(MainActivity.this,ToWebActivity.class);
             intent.putExtra("data",dtContent);
             startActivity(intent);

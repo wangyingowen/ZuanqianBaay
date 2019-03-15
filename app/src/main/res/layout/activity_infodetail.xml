@@ -64,7 +64,6 @@
       android:layout_width="100dp"
       android:layout_height="100dp"
       android:id="@+id/im_erweima"
-      android:background="@mipmap/chengduyanxuan"
       android:layout_centerHorizontal="true"
       android:layout_below="@id/tx_1"
       android:layout_marginTop="20dp"
@@ -147,7 +146,6 @@
       android:layout_below="@id/t5"
       android:layout_marginTop="5dp"
       android:layout_marginLeft="15dp"
-      android:textStyle="bold"
       android:id="@+id/t7"
       />
     <TextView
@@ -170,21 +168,20 @@
 android:layout_below="@id/t7"
       android:textSize="12sp"
       android:textColor="#333"
-      android:layout_marginTop="20dp"
+      android:layout_marginTop="10dp"
       android:layout_marginLeft="15dp"
       android:text="专业培训指导:"/>
     <TextView
       android:id="@+id/t10"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_below="@id/t7"
-      android:textSize="18sp"
+      android:layout_below="@id/t9"
+      android:textSize="16sp"
       android:textColor="#ff0000"
       android:textStyle="bold"
-      android:layout_toRightOf="@id/t9"
-      android:layout_marginTop="12dp"
-      android:layout_marginLeft="5dp"
-      android:text="zuanqianbb (微信号)"/>
+      android:layout_marginTop="5dp"
+      android:layout_marginLeft="15dp"
+      android:text="(微信号) zuanqianbb 或 zuanqianbb2"/>
 
     <LinearLayout
       android:layout_width="match_parent"
@@ -192,7 +189,7 @@ android:layout_below="@id/t7"
       android:weightSum="3"
       android:layout_marginLeft="15dp"
       android:layout_marginRight="15dp"
-      android:layout_below="@+id/t9"
+      android:layout_below="@+id/t10"
       android:orientation="horizontal"
       android:layout_marginTop="10dp"
       android:id="@+id/ll1"
